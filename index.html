@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="15-year-old frontend developer creating modern web experiences">
+<meta name="keywords" content="frontend developer, young programmer, web development">
+<meta property="og:title" content="Mohamed | 15-Year-Old Frontend Developer">
+<meta property="og:description" content="Building modern web experiences with clean code">
+<meta property="og:image" content="profile.png">
+    <title>Mohamed | 15-Year-Old Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Mohamed</a>
+            
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <div class="header-controls">
+                <button class="btn-icon theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="lang-switch" id="langSwitch">
+                    <i class="fas fa-globe"></i>
+                    <span>EN</span>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <button class="lang-switch" id="mobileLangSwitch">
+                <i class="fas fa-globe"></i>
+                <span>EN / AR</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text fade-in">
+                <h1><span class="highlight">Hi, I'm Mohamed</span> – 15-Year-Old Frontend Developer & Tech Enthusiast</h1>
+                <div class="age-badge">15 Years Old • Frontend Developer</div>
+                <p>Building modern web experiences with clean code since age 13. Passionate about creating interactive websites and learning new technologies.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Projects
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <div class="profile-img-container">
+                    <!-- USER: Add your profile image URL here -->
+                    <img src="profile.png" class="profile-img">
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-element"></div>
+                    <div class="floating-element"></div>
+                    <div class="floating-element"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-content">
+            <h2 class="section-title fade-in">About Me</h2>
+            <p class="section-subtitle fade-in">Young developer passionate about creating amazing web experiences</p>
+            <p class="about-text fade-in">
+                I'm a 15-year-old frontend developer from Egypt who started coding at age 13. I have a strong passion for creating interactive, responsive websites using modern web technologies. My journey began with HTML and CSS, and I've since expanded to JavaScript and frontend frameworks. I believe age is just a number when it comes to passion and skill in technology.
+            </p>
+            <div class="skills-container fade-in">
+                <div class="skill-tag">HTML5</div>
+                <div class="skill-tag">CSS3</div>
+                <div class="skill-tag">JavaScript</div>
+                <div class="skill-tag">React</div>
+                <div class="skill-tag">Responsive Design</div>
+                <div class="skill-tag">Git & GitHub</div>
+                <div class="skill-tag">UI/UX Design</div>
+                <div class="skill-tag">Web Performance</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">My Projects</h2>
+            <p class="section-subtitle fade-in">A journey through my coding projects from beginner to advanced</p>
+            <div class="projects-grid">
+                <!-- Project 1: First Website -->
+                <div class="project-card fade-in">
+                    <!-- USER: Add your project image URL here -->
+                    <div class="project-img">
+                        <img src="first.png" alt="first" width="100%" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">My First Website</h3>
+                        <p class="project-desc">The very first website I built when I started learning web development at age 13. A simple HTML & CSS project that started my coding journey.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Beginner Project</span>
+                        </div>
+                        <!-- USER: Add your project link here -->
+                        <a href="https://0xmohamed-bit.github.io/my--web/" target="_blank" class="btn btn-primary">
+                            View Project
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2: Flappy Bird -->
+                <div class="project-card fade-in">
+                    <!-- USER: Add your project image URL here -->
+                    <div class="project-img">
+                        <img src="second.png" alt="second" width="100%" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Flappy Bird Clone</h3>
+                        <p class="project-desc">A JavaScript recreation of the popular Flappy Bird game with custom graphics, score tracking, and increasing difficulty levels.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML5 Canvas</span>
+                            <span class="tech-tag">Game Development</span>
+                        </div>
+                        <!-- USER: Add your project link here -->
+                        <a href="https://0xmohamed-bit.github.io/flaby-bird/" target="_blank" class="btn btn-primary">
+                            Play Game
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 3: Advanced Calculator -->
+                <div class="project-card fade-in">
+                    <!-- USER: Add your project image URL here -->
+                    <div class="project-img">
+                        <img src="third.png" alt="third" width="100%" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Advanced Calculator</h3>
+                        <p class="project-desc">A feature-rich calculator with scientific functions, unit conversions, calculation history, and a modern dark/light theme toggle.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">ES6+</span>
+                            <span class="tech-tag">Local Storage</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                        <!-- USER: Add your project link here -->
+                        <a href="https://0xmohamed-bit.github.io/calc/" target="_blank" class="btn btn-primary">
+                            Try Calculator
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container contact-content">
+            <h2 class="section-title fade-in">Connect With Me</h2>
+            <p class="section-subtitle fade-in">Feel free to reach out through any of these platforms</p>
+            <div class="contact-icons fade-in">
+                <!-- USER: Update these links with your actual social media profiles -->
+                <a href="https://www.github.com/0xMohamed-bit" target="_blank" class="contact-icon">
+                    <div class="icon-circle">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <span class="icon-name">GitHub</span>
+                </a>
+                
+                <a href="https://www.x.com/mhmdbahy907" target="_blank" class="contact-icon">
+                    <div class="icon-circle">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <span class="icon-name">Twitter</span>
+                </a>
+                
+                <a href="https://www.instagram.com/mhmdbahy907/" target="_blank" class="contact-icon">
+                    <div class="icon-circle">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <span class="icon-name">Instagram</span>
+                </a>
+                
+                <a href="https://www.facebook.com/profile.php?id=61585452226398" target="_blank" class="contact-icon">
+                    <div class="icon-circle">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <span class="icon-name">Facebook</span>
+                </a>
+                <!-- USER: Update this with your actual email -->
+                <a href="mailto:mhmdbahy907@gmail.com" class="contact-icon">
+                    <div class="icon-circle">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <span class="icon-name">Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Mohamed</div>
+            <p class="footer-text">15-year-old frontend developer passionate about creating interactive web experiences and learning new technologies.</p>
+            <div class="footer-copyright">© 2026 Mohamed. All rights reserved. | 15-Year-Old Frontend Developer</div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
