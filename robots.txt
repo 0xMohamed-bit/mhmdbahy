@@ -1,5 +1,13 @@
+# robots.txt for Mohamed's Portfolio
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /private/
 
+# Crawl-delay: 10 (optional - adjust if needed)
+
+# Sitemaps
 Sitemap: https://0xmohamed-bit.github.io/mhmdbahy/sitemap.xml
-
+Sitemap: https://0xmohamed-bit.github.io/my--web/sitemap.xml
+Sitemap: https://0xmohamed-bit.github.io/flaby-bird/sitemap.xml
+Sitemap: https://0xmohamed-bit.github.io/calc/sitemap.xml
