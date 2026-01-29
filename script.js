@@ -1,7 +1,7 @@
 //favicon
 const l = document.createElement("link");
 l.rel = "icon";
-l.href = "/favicon.png";
+l.href = "/favicon.ico";
 document.head.appendChild(l);
 // Multi-language support
 const translations = {
